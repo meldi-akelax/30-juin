@@ -4245,7 +4245,7 @@ button {
 }
 @font-face {
   font-family: Archivo;
-  src: url("/assets/fonts/Archivo-VariableFont_wdth,wght.ttf") format("truetype");
+  src: url("../fonts/Archivo-VariableFont_wdth,wght.ttf") format("truetype");
 }
 * {
   margin: 0;
