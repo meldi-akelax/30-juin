@@ -4329,7 +4329,7 @@ footer {
   top: auto;
   bottom: 0 !important;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   overflow: hidden;
 }
