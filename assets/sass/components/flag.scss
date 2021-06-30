@@ -1,0 +1,89 @@
+.flag-container {
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    transition: all .4s;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.flag-container .flag {
+    height: 80px;
+    width: 80px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    font-size: 30px;
+    animation: anime-flag-5 1s alternate-reverse infinite;
+    transition: all .4s;
+    img {
+        max-height: 80%;
+        max-width: 75%;
+        border-radius: 13px;
+    }
+}
+
+@keyframes anime-flag-1 {
+    from {
+        opacity: 0;
+    }
+    to {
+        top: -70px;
+        left: -10px;
+    }
+}
+
+@keyframes anime-flag-2 {
+    from {
+        opacity: 0;
+    }
+    to {
+        top: 100px;
+        left: 20px;
+    }
+}
+
+@keyframes anime-flag-3 {
+    from {
+        opacity: 0;
+    }
+    to {
+        top: 40px;
+        left: -20px;
+    }
+}
+
+@keyframes anime-flag-4 {
+    from {
+        opacity: 0;
+    }
+    to {
+        top: -150px;
+        left: 0px;
+    }
+}
+
+@keyframes anime-flag-5 {
+    from {
+        opacity: 0;
+    }
+    to {
+        top: 100px;
+        left: -100px;
+    }
+}
+
+@keyframes anime-flag-6 {
+    from {
+        opacity: 0;
+    }
+    to {
+        top: -30px;
+        left: 20px;
+    }
+}

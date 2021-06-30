@@ -1,0 +1,99 @@
+@import "./materialize-src/sass/materialize.scss";
+@import "./components/navbar.scss";
+@import "./components/section.scss";
+@import "./components/button.scss";
+@import "./components/flag.scss";
+@font-face {
+    font-family: Archivo;
+    src: url("/assets/fonts/Archivo-VariableFont_wdth\,wght.ttf") format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+}
+
+body {
+    position: relative;
+    font-family: Archivo;
+    color: #2C374C;
+    transition: all .4s;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.top-degrade {
+    position: absolute;
+    display: block;
+    height: 7px;
+    width: 100%;
+    background: linear-gradient(45deg, yellow, rgb(255, 61, 61), rgb(17, 139, 209));
+    z-index: 5;
+}
+
+.head {
+    position: relative;
+    top: -13px;
+    z-index: -1;
+    display: flex;
+    justify-content: space-between;
+    img {
+        height: 100px;
+    }
+    h1 {
+        z-index: 11;
+        margin-left: -100px;
+        letter-spacing: 2px;
+        color: rgb(46, 162, 240);
+        text-shadow: 2px 0 rgb(169, 210, 216);
+        padding: 10px;
+        z-index: 2;
+        strong {
+            margin: 10px;
+            span {
+                font-weight: 100;
+            }
+        }
+    }
+}
+
+main {
+    z-index: -1;
+}
+
+strong {
+    color: #2C374C;
+}
+
+.pd {
+    padding: 0 80px !important;
+}
+
+@media only screen and (max-width: 772px) {
+    .pd {
+        padding: 0 12px !important;
+    }
+}
+
+.p-relative {
+    position: relative;
+}
+
+.p-absolute {
+    position: absolute;
+}
+
+footer {
+    width: 100%;
+    top: auto;
+    bottom: 0 !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    figcaption {
+        display: none;
+    }
+    overflow: hidden;
+}
