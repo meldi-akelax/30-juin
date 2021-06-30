@@ -11,11 +11,15 @@ section {
     align-items: center;
     z-index: 5;
     h2 {
-        font-size: 35px;
-        margin: 5px 0 10px 0;
+        font-size: 30px;
+        text-align: center;
+        margin: 0px 0 20px 0;
     }
     p {
-        font-size: 20px;
+        font-size: 16px;
+    }
+    blockquote {
+        color: rgb(133, 155, 163);
     }
     div {
         width: 300px;

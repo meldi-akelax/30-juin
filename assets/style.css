@@ -4111,11 +4111,15 @@ section {
   z-index: 5;
 }
 section h2 {
-  font-size: 35px;
-  margin: 5px 0 10px 0;
+  font-size: 30px;
+  text-align: center;
+  margin: 0px 0 20px 0;
 }
 section p {
-  font-size: 20px;
+  font-size: 16px;
+}
+section blockquote {
+  color: #859ba3;
 }
 section div {
   width: 300px;
@@ -4262,7 +4266,7 @@ body {
 .top-degrade {
   position: absolute;
   display: block;
-  height: 7px;
+  height: 5px;
   width: 100%;
   background: linear-gradient(45deg, yellow, #ff3d3d, #118bd1);
   z-index: 5;
@@ -4270,7 +4274,7 @@ body {
 
 .head {
   position: relative;
-  top: -13px;
+  top: -15px;
   z-index: -1;
   display: flex;
   justify-content: space-between;
@@ -4281,6 +4285,7 @@ body {
 .head h1 {
   z-index: 11;
   margin-left: -100px;
+  font-size: 27px;
   letter-spacing: 2px;
   color: #2ea2f0;
   text-shadow: 2px 0 #a9d2d8;
@@ -4324,7 +4329,7 @@ footer {
   top: auto;
   bottom: 0 !important;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   overflow: hidden;
 }
